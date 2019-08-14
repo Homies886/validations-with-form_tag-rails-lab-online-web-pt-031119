@@ -25,8 +25,8 @@
   <% else %>
     <div class="field_with_errors">
   <% end %>
-    <%= label_tag "category", "Email" %>
-    <%= text_field_tag "category", @post.category %>
+    <%= label_tag "Category", "Email" %>
+    <%= text_field_tag "Category", @post.category %>
   </div>
 
   <% if @post.errors[:content].empty? %>
@@ -34,8 +34,8 @@
   <% else %>
     <div class="field_with_errors">
   <% end %>
-    <%= label_tag "content", "Phone Number" %>
-    <%= text_field_tag "content", @post.content %>
+    <%= label_tag "Content", "Phone Number" %>
+    <%= text_field_tag "Content", @post.content %>
   </div>
 
   <%= submit_tag "Create" %>
